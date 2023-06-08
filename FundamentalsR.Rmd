@@ -8,6 +8,17 @@ output: pdf_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+## Setup
+**Work Directory**
+```{r}
+getwd()
+```
+
+**What is in the Directory**
+```{r}
+dir()
+```
+
 
 ## R Markdown
 
