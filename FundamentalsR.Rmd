@@ -18,7 +18,11 @@ getwd()
 ```{r}
 dir()
 ```
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+>>>>>>> fc25a2b2bccf1b9ec79004e9d4b9deb272ced953
 **The very basic input**
 
 ```{r}
@@ -41,8 +45,13 @@ x <- c(0.5, 0.6) ##numeric
 x
 ```
 
+<<<<<<< HEAD
 
 =======
+=======
+=======
+>>>>>>> eafacb3354d93152564344bc4d863ac11d09e527
+>>>>>>> fc25a2b2bccf1b9ec79004e9d4b9deb272ced953
 
 
 ## R Markdown
