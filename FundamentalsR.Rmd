@@ -18,7 +18,11 @@ getwd()
 ```{r}
 dir()
 ```
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+>>>>>>> fc25a2b2bccf1b9ec79004e9d4b9deb272ced953
 **The very basic input**
 
 ```{r}
@@ -41,8 +45,54 @@ x <- c(0.5, 0.6) ##numeric
 x
 ```
 
+```{r}
+y <- c(TRUE, FALSE) #logical
+y
+```
+```{r}
+z <- c(T, F) #logical
+z
+```
+```{r}
+w <- c("a", "b", "c") #character
+w
+```
+```{r}
+m <- 9:29 #integer
+m
+```
+```{r}
+n <- c(1+0i, 2+4i) #complex
+n
+```
+*creating vector by vector function*
+```{r}
+x <- vector("numeric", length = 10)
+x
+```
+*let's mix objects*
+```{r}
+y <- c(1.7, "a") #character 
+y
+```
+```{r}
+y <- c(TRUE, 2) #numeric
+y
+```
+```{r}
+y <- c("a", T) #character
+y
+```
+*Explicit Coercion*
+
+
+<<<<<<< HEAD
 
 =======
+=======
+=======
+>>>>>>> eafacb3354d93152564344bc4d863ac11d09e527
+>>>>>>> fc25a2b2bccf1b9ec79004e9d4b9deb272ced953
 
 
 ## R Markdown
