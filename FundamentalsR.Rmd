@@ -8,6 +8,39 @@ output: pdf_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+## Setup
+**Work Directory**
+```{r}
+getwd()
+```
+
+**What is in the Directory**
+```{r}
+dir()
+```
+**The very basic input**
+
+```{r}
+x <- 5
+#auto-printing
+x 
+#explicit printing
+print(x)
+```
+```{r}
+x <- 1:20
+x
+```
+
+### Data Types
+#### Vectors and Lists
+
+```{r}
+x <- c(0.5, 0.6) ##numeric
+x
+```
+
+
 
 ## R Markdown
 
