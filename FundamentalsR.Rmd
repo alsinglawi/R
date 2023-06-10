@@ -45,6 +45,7 @@ x <- c(0.5, 0.6) ##numeric
 x
 ```
 
+<<<<<<< HEAD
 ```{r}
 y <- c(TRUE, FALSE) #logical
 y
@@ -86,6 +87,8 @@ y
 *Explicit Coercion*
 
 
+=======
+>>>>>>> d2d8c48f65f748134b45d502a7ef0b9e9357383d
 <<<<<<< HEAD
 
 =======
