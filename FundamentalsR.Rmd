@@ -84,6 +84,7 @@ y
 y <- c("a", T) #character
 y
 ```
+
 *Explicit Coercion*
 
 
