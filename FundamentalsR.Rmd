@@ -86,6 +86,38 @@ y
 ```
 
 *Explicit Coercion*
+```{r}
+x <- 0:6
+class(x)
+```
+```{r}
+as.numeric(x)
+```
+```{r}
+as.logical(x)
+```
+```{r}
+as.character(x)
+```
+#Nonsensical
+```{r}
+x <- c("a", "b", "c")
+```
+```{r}
+as.numeric(x)
+```
+```{r}
+as.logical(x)
+```
+```{r}
+as.complex(x)
+```
+## Lists
+
+```{r}
+x <- list(1, "a", TRUE, 1+4i)
+x
+```
 
 
 =======
